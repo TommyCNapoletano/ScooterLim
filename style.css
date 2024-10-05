@@ -1,0 +1,86 @@
+body{
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 5%;
+  padding-left: 5%;
+}
+
+
+.contenitore{
+  width: 50%;
+  margin: auto;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  top: 100%;
+}
+
+
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  text-align: center inherit;
+}
+
+h1{
+  color: lime;
+  font-family: Arial
+  width: 50%;
+  text-align: center;
+}
+
+
+nav{
+  text-align: center;
+  background-color: lime;
+  border: none;
+  padding: 10px 30px;
+  display: inline-block;
+  font-size: 5px;
+  width: 80%;
+}
+
+main{
+  text-align: left;
+  color: white;
+  font-family: Arial;
+  padding: 15px;
+  padding-left: 0;
+  line-height: 1.5;
+}
+
+#tutto{
+  padding-left: 5%;
+}
+
+#barracolorata{
+  height: 20px; /* Altezza della barra */
+  width: 30%; /* Percentuale di carica, modifica come necessario */
+  background-color: #ffcc80; /* Arancione chiaro */
+  border-radius: 5px; /* Angoli arrotondati */
+  padding: 5px;
+}
+
+#barracolorata2{
+  height: 20px; /* Altezza della barra */
+  width: 70%; /* Percentuale di carica, modifica come necessario */
+  background-color: #008000; /* Verde */
+  border-radius: 5px; /* Angoli arrotondati */
+  padding: 5px;
+}
+
+#barracolorata3{
+  height: 20px; /* Altezza della barra */
+  width: 10%; /* Percentuale di carica, modifica come necessario */
+  background-color: #CD5C5C; /* Rocco chiaro */
+  border-radius: 5px; /* Angoli arrotondati */
+  padding: 5px;
+}
